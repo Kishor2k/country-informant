@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .row {
+    @apply flex justify-between px-4 py-2 bg-green-200;
+  }
+  .row-dark {
+    @apply flex justify-between px-4 py-2 bg-emerald-200;
+  }
+  .output-text {
+    @apply text-sm font-semibold;
+  }
+}
